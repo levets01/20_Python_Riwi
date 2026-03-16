@@ -1,12 +1,12 @@
 print("===== HELADERIA =====")
 
-#ACA ESTARAN LOS PRECIOS EN VARIABLES
+#AQUI ESTARAN LOS PRECIOS EN VARIABLES
 
 vainilla = 5000
 chocolate = 6000
 fresa = 5500
 
-#ACA ESTARAN LOS CONTADORES
+#AQUI ESTARAN LOS CONTADORES
 
 total_ventas = 0
 clientes = 0
@@ -15,7 +15,7 @@ cont_vainilla = 0
 cont_chocolate = 0
 cont_fresa = 0
 
-#ACA ESTA LA CONDICIÓN Y EL MENU DE LA HELADERIA
+#AQUI ESTA LA CONDICIÓN Y EL MENU DE LA HELADERIA
 
 while True:
     print("\n1.Vainilla ")
@@ -69,7 +69,7 @@ while True:
     print("CLIENTES ATENDIDOS:", clientes)
     print("TOTAL VENDIDO :", total_ventas)
 
-    #Aca se definira cual fue el producto mas vendido
+    #Aqui se definira cual fue el producto mas vendido
 
     if cont_vainilla > cont_chocolate and cont_vainilla > cont_fresa:
 
